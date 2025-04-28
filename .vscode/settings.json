@@ -1,0 +1,5 @@
+{
+  "git.ignoreLimitWarning": true,
+  "cSpell.words": ["errorlevel", "HAMCREST", "javac"],
+  "java.project.referencedLibraries": ["libs/**/*.jar"]
+}
