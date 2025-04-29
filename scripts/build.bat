@@ -23,6 +23,3 @@ jar cvf ReverseString.jar ReverseString.class
 cd ..\..
 
 echo Build completed successfully!
-
-dir /s /b src > file_list.txt
-type file_list.txt
