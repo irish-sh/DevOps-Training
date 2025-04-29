@@ -3,6 +3,13 @@ echo ============
 echo Build stage STARTED
 echo ============
 
+:: Go to Jenkins workspace directory
+cd %WORKSPACE%
+
+:: Optional: list files to debug
+echo Current directory: %CD%
+dir src\interview_programs
+
 if not exist build (
     mkdir build
 )
