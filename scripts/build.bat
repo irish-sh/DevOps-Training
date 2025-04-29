@@ -3,7 +3,6 @@ echo ============
 echo Build stage STARTED
 echo ============
 
-cd ..
 if not exist build (
     mkdir build
 )
