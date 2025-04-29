@@ -4,6 +4,7 @@ echo  [ZIP ARTIFACTS STAGE STARTED]
 echo ============================
 
 REM Create artifacts folder
+cd ..
 if not exist build_artifacts mkdir build_artifacts
 
 REM Set ZIP filename with timestamp
@@ -17,4 +18,4 @@ powershell Compress-Archive -Path build\*,logs\*,reports\* -DestinationPath %ZIP
 
 copy %ZIPNAME% D:\Shared
 
-echo ✅ Artifacts zipped and copied to Shared folder!
+echo Artifacts zipped and copied to Shared folder!

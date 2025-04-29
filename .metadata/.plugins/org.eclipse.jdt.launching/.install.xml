@@ -3,5 +3,8 @@
     <entry loc="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.6.v20250130-0529" stamp="1741254722000"/>
     <entry loc="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home" stamp="1742275974767"/>
     <entry loc="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home" stamp="1721222311000"/>
+    <entry loc="C:\Program Files\Zulu\zulu-17-jre" stamp="1744976253033"/>
     <entry loc="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.6.v20250130-0529/jre" stamp="1741254722000"/>
+    <entry loc="C:\Users\shirishk\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529" stamp="1743572961007"/>
+    <entry loc="C:\Users\shirishk\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre" stamp="1743572961007"/>
 </dirs>

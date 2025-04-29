@@ -2,7 +2,7 @@ package interview_programs;
 
 public class ReverseString {
 
-	public static void reverse(String s) {
+	public static String reverse(String s) {
 		char[] ch = s.toCharArray();
 		int first= 0;
 		int last= ch.length-1;
@@ -15,16 +15,14 @@ public class ReverseString {
 			last--;
 		}
 
-		for(char c:ch) {
-			System.out.print(c);
-		}
+		return new String(ch);
 		
 	}
 	
 	public static void main(String[] args) {
 
 		String s = "Hello World!";
-		reverse(s);
+		System.out.println(reverse(s));
 	}
 
 }
