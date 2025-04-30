@@ -14,7 +14,7 @@ set datetime=%datetime: =0%
 set ZIPNAME=build_artifacts\build_%datetime%.zip
 
 REM Use powershell to zip
-powershell Compress-Archive -Path build\*,logs\*,reports\* -DestinationPath %ZIPNAME%
+powershell Compress-Archive -Path build\*,logs\* -DestinationPath %ZIPNAME%
 
 copy %ZIPNAME% D:\Shared
 
